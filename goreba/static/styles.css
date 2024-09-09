@@ -33,24 +33,47 @@ th, td {
 /* Header */
 .navbar-main {
     box-shadow: var(--box-shadow);
+    width: 100%;
+    transition: 0.4s;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-.navbar-main .navbar-brand {
-    font-size: 24px;
-    font-weight: 600;
-    color: var(--jet-color);
+.navbar-main div {
+    padding: 20px;
 }
-.navbar-main .total-owed {
+.navbar-main .nav-goreba{
+    font-weight: bold;
+    text-transform: uppercase;
     font-size: 20px;
-    color: var(--highlight-color);
-    font-weight: 600;
+}
+.navbar-main .nav-search{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+.navbar-main .nav-search input[type="search"] {
+    box-shadow: var(--box-shadow);
+    border: 0px;
+    height: 30px;
+}
+.navbar-main .nav-search .nav-button {
+    width: 80px;
+    border: 1px solid var(--turquoise-color);
 }
 
-/* TODO */
-.graph-todo {
-    height: 300px;
-    widows: 100%;
+/* Notices */
+.temp-notice {
+    position: relative;
+    height: 60px;
+    width: 100%;
     text-align: center;
-    line-height: 300px;
+    line-height: 60px;
+    font-size: 32px;
+    font-weight: 600;
     color: var(--turquoise-color);
 }
 

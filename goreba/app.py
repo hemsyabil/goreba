@@ -13,6 +13,11 @@ def cleaning():
     return render_template('services/cleaning/index.html')
 
 
+@app.route('/painting')
+def painting():
+    return render_template('services/painting/index.html')
+
+
 @app.route('/rennovation')
 def woodworking():
     return render_template('services/rennovation/index.html')
