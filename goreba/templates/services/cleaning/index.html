@@ -4,8 +4,82 @@
 {% include 'modules/header.html' %}
 
 {% block content %} 
+<div class="banner-image">
+    <img src="{{ url_for('static', filename='media/goreba-cleaning-banner-1.png') }}" alt="Goreba Cleaning Services" />
+</div>
+<div class="container main-feature-base">
+    <div class="tagline">Exceptional Cleaning, Every Time - How?</div>
+    <div class="feature-base">
+        <div class="feature-item">
+            <i class="material-icons">invert_colors</i>
+            <h3>Health & Environment</h3>
+            <p>We use only non-toxic, chemical free, environmentally-certified and sustainable cleaning products that create a natural freshness.</p>
+        </div>
+        <div class="feature-item">
+            <i class="material-icons">assignment_turned_in</i>
+            <h3>Strict & High Standards</h3>
+            <p>We guarantee a truly thorough and high standard of clean based on our 20-point home clean checklist.</p>
+        </div>
+        <div class="feature-item">
+            <i class="material-icons">check_circle</i>
+            <h3>Your Satisfaction</h3>
+            <p>We take pride in our work and make our best effort to satisfy your cleaning needs.</p>
+        </div>
+    </div
+</div>
+
 <div class="container">
-    <div class="temp-notice">Goreba Cleaning</div>
+    <h2 class="section-header">Services</h2>
+    <div class="service-base">
+        
+        <div class="service-item">
+            <span class="service-item-icon"><i class="material-icons">assignment_turned_in</i></span>
+            <div class="serivce-item-image"></div>
+            <h3>Residential Cleaning</h3>
+            <p>Whether its for a biweekly clean, one time clean or a tenancy turn-over, we have you covered!</p>
+            <a>Learn more ...</a>
+        </div>
+
+        <div class="service-item">
+            <span class="service-item-icon"><i class="material-icons">assignment_turned_in</i></span>
+            <div class="serivce-item-image"></div>
+            <h3>Commercial Cleaning</h3>
+            <p>Whether its for a small office, large building, dental office, or industrial space, we have you covered!</p>
+            <a>Learn more ...</a>
+        </div>
+
+        <div class="service-item">
+            <span class="service-item-icon"><i class="material-icons">assignment_turned_in</i></span>
+            <div class="serivce-item-image"></div>
+            <h3>Deep Cleaning</h3>
+            <p>At Goreba, we believe in delivering a deeper and more effective cleaning every time.</p>
+            <a>Learn more ...</a>
+        </div>
+
+        <div class="service-item">
+            <span class="service-item-icon"><i class="material-icons">assignment_turned_in</i></span>
+            <div class="serivce-item-image"></div>
+            <h3>Airbnb Cleaning</h3>
+            <p>Whether its for a biweekly clean, one time clean or a tenancy turn-over, we have you covered!</p>
+            <a>Learn more ...</a>
+        </div>
+
+        <div class="service-item">
+            <span class="service-item-icon"><i class="material-icons">assignment_turned_in</i></span>
+            <div class="serivce-item-image"></div>
+            <h3>Move-In / Move-Out</h3>
+            <p>Whether its for a biweekly clean, one time clean or a tenancy turn-over, we have you covered!</p>
+            <a>Learn more ...</a>
+        </div>
+
+        <div class="service-item">
+            <span class="service-item-icon"><i class="material-icons">assignment_turned_in</i></span>
+            <div class="serivce-item-image"></div>
+            <h3>Post Renovation</h3>
+            <p>Detailed cleaning services after your Ottawa renovation project involving removing dust, debris, wiping, vacuuming, washing, and more.</p>
+            <a>Learn more ...</a>
+        </div>
+    </div>
 </div>
 
 {% endblock content %}
